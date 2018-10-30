@@ -1,0 +1,15 @@
+# import User from './prisma.graphql'
+
+type Query {
+  "TODO: rename and add a description of this query"
+  users: [User]
+}
+type Mutation {
+  "TODO: rename and add a description of this query"
+  createUser(name: String!): User
+}
+
+# type User {
+#   id: ID!
+#   name: String!
+# }
